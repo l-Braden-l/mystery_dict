@@ -11,9 +11,12 @@ names_dict = {
     "Lennon":5624
     }
 
-
-if input_name not in names_dict: 
+while input_name not in names_dict: 
     print('Person is not in our system!')
+    input_name = input('Please enter your students name: ')
+
 else:
     print(f'{input_name}\'s Student ID is : {names_dict[input_name]}')
-    
+
+
+        
